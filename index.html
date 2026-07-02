@@ -1,96 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prospiro Rexie | My Website</title>
-
-    <!-- CSS file -->
     <link rel="stylesheet" href="style.css">
-
+</head>
 
 <body>
 
+<header>
+    <h1>Prospiro Rexie</h1>
+    <p>Welcome to My Official Website</p>
+</header>
 
-        <h1>Prospiro Rexie</h1>
-        <p>Welcome to My Official Website</p>
-    </header>
+<img src="rexie.png" alt="Prospiro Rexie" class="profile">
 
-    <img src="rexie.png" alt="Prospiro Rexie" class="profile">
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+</nav>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Projects</a>
-        <a href="#">Contact</a>
-    </nav>
+<main>
 
-    <main>
+<section>
+    <h2>About Me</h2>
+    <p>Hello! My name is Prospiro Rexie. I am learning web development and programming. My goal is to become a professional web developer and create amazing websites.</p>
+</section>
 
-        <section>
-            <h2>About Me</h2>
-            <p>Hello! My name is Prospiro Rexie. I am learning web development and programming. My goal is to become a professional web developer and create amazing websites.</p>
-        </section>
+<section>
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Learning JavaScript</li>
+    </ul>
+</section>
 
-        <section>
-            <h2>My Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Learning JavaScript</li>
-            </ul>
-        </section>
+<section>
+    <h2>My Goal</h2>
+    <p>I want to build modern websites, mobile applications, and software that can help people around the world.</p>
 
-        <section>
-            <h2>My Goal</h2>
-            <p>I want to build modern websites, mobile applications, and software that can help people around the world.</p>
+    <button onclick="contactMe()">Contact Me</button>
+</section>
 
-            <button onclick="contactMe()">Contact Me</button>
-        </section>
+<section>
+    <h2>My Projects</h2>
 
-        <section>
-            <h2>My Projects</h2>
+    <div>
+        <h3>Project 1</h3>
+        <p>My first website built with HTML and CSS.</p>
+    </div>
 
-            <div>
-                <h3>Project 1</h3>
-                <p>My first website built with HTML and CSS.</p>
-            </div>
+    <div>
+        <h3>Project 2</h3>
+        <p>More projects coming soon...</p>
+    </div>
+</section>
 
-            <div>
-                <h3>Project 2</h3>
-                <p>More projects coming soon...</p>
-            </div>
-        </section>
+<section>
+    <h2>Contact Me</h2>
 
-        <section>
-            <h2>Contact Me</h2>
+    <form onsubmit="sendMessage(); return false;">
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <textarea placeholder="Your Message" required></textarea><br><br>
+        <button type="submit">Send Message</button>
+    </form>
 
-            <form onsubmit="sendMessage(); return false;">
-                <input type="text" placeholder="Your Name" required><br><br>
-                <input type="email" placeholder="Your Email" required><br><br>
-                <textarea placeholder="Your Message" required></textarea><br><br>
-                <button type="submit">Send Message</button>
-            </form>
+    <p>Email: prospironiufa@gmail.com</p>
+    <p>Phone: +237 675558350</p>
+</section>
 
-            <p>Email: prospironiufa@gmail.com</p>
-            <p>Phone: +237 675558350</p>
-        </section>
+</main>
 
-    </main>
+<footer>
+    <p>© 2026 Prospiro Rexie. All Rights Reserved.</p>
+</footer>
 
-    <footer>
-        <p>© 2026 Prospiro Rexie. All Rights Reserved.</p>
-    </footer>
+<script>
+function contactMe() {
+    alert("Thanks for visiting! You can contact me soon 😊");
+}
 
-    <script>
-        function contactMe() {
-            alert("Thanks for visiting! You can contact me soon 😊");
-        }
-
-        function sendMessage() {
-            alert("Message sent successfully! I will get back to you soon 😊");
-        }
-    </script>
+function sendMessage() {
+    alert("Message sent successfully! I will get back to you soon 😊");
+}
+</script>
 
 </body>
 </html>
