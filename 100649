@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prospiro Rexie | My Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Prospiro Rexie</h1>
+    <p>Welcome to My Official Website</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Projects</a>
+    <a href="#">Contact</a>
+</nav>
+
+<main>
+<img src="profile.jpg" alt="Prospiro Rexie" class="profile">
+<section>
+    <h2>About Me</h2>
+    <p>Hello! My name is Prospiro Rexie. I am learning web development and programming. My goal is to become a professional web developer and create amazing websites.</p>
+</section>
+
+<section>
+    <h2>My Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Learning JavaScript</li>
+    </ul>
+</section>
+
+<section>
+    <h2>My Goal</h2>
+    <p>I want to build modern websites, mobile applications, and software that can help people around the world.</p>
+
+    <button>Contact Me</button>
+</section>
+
+</main>
+<section>
+    <h2>Contact Me</h2>
+    <p>Email:prospironiufa@gmail.com </p>
+    <p>Phone: +237 675558359</p>
+</section>
+<footer>
+    <p>© 2026 Prospiro Rexie. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
