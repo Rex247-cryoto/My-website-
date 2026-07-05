@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CMFI Choir | Christian Missionary Fellowship International</title>
+
+<style>
+<link rel="stylesheet" href="style.css">
+body{
+font-family:Arial,Helvetica,sans-serif;
+background:#f4f7fb;
+color:#222;
+}
+
+header{
+background:#0b2d5c;
+color:#fff;
+padding:18px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:#fff;
+text-decoration:none;
+margin-left:20px;
+font-weight:bold;
+}
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url("choir.jpg") center/cover;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h1{
+font-size:55px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+background:#f4b400;
+color:#000;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+}
+
+section{
+padding:70px 10%;
+}
+
+h2{
+text-align:center;
+color:#0b2d5c;
+margin-bottom:35px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.card{
+background:#fff;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.gallery img{
+width:100%;
+border-radius:12px;
+}
+
+footer{
+background:#0b2d5c;
+color:white;
+text-align:center;
+padding:25px;
+}
+
+@media(max-width:768px){
+header{
+flex-direction:column;
+}
+nav{
+margin-top:15px;
+}
+.hero h1{
+font-size:38px;
+}
+.hero p{
+font-size:18px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">CMFI Choir</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#ministries">Ministries</a>
+<a href="#events">Events</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<div>
+<h1>Christian Missionary Fellowship International Choir</h1>
+<p>Raising worshippers. Inspiring lives. Glorifying Jesus Christ.</p>
+<a href="#about" class="btn">Learn More</a>
+</div>
+</section>
+
+<section id="about">
+<h2>About Us</h2>
+<div class="card">
+<p>
+The CMFI Choir exists to glorify God through worship, praise, prayer, and music. We are committed to leading people into God's presence and sharing the Gospel through songs of hope, faith, and love.
+</p>
+</div>
+</section>
+
+<section id="ministries">
+<h2>Our Ministries</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Sunday Worship</h3>
+<p>Leading the congregation in heartfelt worship every Sunday.</p>
+</div>
+
+<div class="card">
+<h3>Music Training</h3>
+<p>Developing singers, instrumentalists, and worship leaders.</p>
+</div>
+
+<div class="card">
+<h3>Outreach</h3>
+<p>Ministering through music in communities, schools, and hospitals.</p>
+</div>
+
+</div>
+</section>
+
+<section id="events">
+<h2>Upcoming Events</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Sunday Worship Service</h3>
+<p>Every Sunday - 9:00 AM</p>
+</div>
+
+<div class="card">
+<h3>Choir Rehearsal</h3>
+<p>Every Friday - 5:00 PM</p>
+</div>
+
+<div class="card">
+<h3>Annual Gospel Concert</h3>
+<p>Coming Soon</p>
+</div>
+
+</div>
+</section>
+
+<section id="gallery">
+<h2>Gallery</h2>
+
+<div class="gallery">
+<img src="choir1.jpg" alt="Choir">
+<img src="choir2.jpg" alt="Praise">
+<img src="choir3.jpg" alt="Worship">
+<img src="choir4.jpg" alt="Concert">
+</div>
+
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+
+<div class="card">prospironiufa@gmail.com
+<p><strong>Email:</strong> </p>
+<p><strong>Phone:</strong> +237 675558350</p>
+<p><strong>Address:</strong> Christian Missionary Fellowship International baffussam</p>
+</div>
+
+</section>
+
+<footer>
+<p>&copy; 2026 CMFI Choir. All Rights Reserved.</p>
+<p>Designed with excellence for the glory of God.</p>
+</footer>
+
+</body>
+</html>
